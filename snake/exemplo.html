@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script src="./Carro.js"></script>
+
+    <script>
+
+        // Instanciar um objeto.
+        let meuCarro = new Carro("IX35", '200KM', "Hyunday", '2023', 150000.00 );
+        console.log(meuCarro);
+        meuCarro.acelerar();
+        meuCarro.freiar();
+        meuCarro.tocarMusica();
+        
+
+        let carroDoJean = new Carro("Fiat Toro", '200.0km', "Fiat", '2023/2024', 250000.00);
+        console.log(carroDoJean);
+        carroDoJean.acelerar();
+        carroDoJean.freiar();
+        carroDoJean.tocarMusica();
+
+
+    </script>
+</body>
+</html>
